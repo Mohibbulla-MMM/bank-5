@@ -9,7 +9,7 @@ document.getElementById("log-btn").addEventListener("click", function () {
   const userPasswordValue = userPassword.value;
 
   if (userNameValue === "mohibbulla" && userPasswordValue === "1010") {
-    location.href = "../user-account-page/user.html";
+    location.href = "user-account-page/user.html";
   } else if (userPasswordValue !== "1010" || userNameValue !== "mohibbulla") {
     // user name
     if (userNameValue.length > 0 && userNameValue !== "mohibbulla") {
