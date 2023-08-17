@@ -1,20 +1,3 @@
-function inputConverter(inputId) {
-  const element = document.getElementById(inputId);
-  const elementValue = element.value;
-  const elementConvert = parseFloat(elementValue);
-  element.value = "";
-  return elementConvert;
-}
-function textConverter(inputId) {
-  const element = document.getElementById(inputId);
-  const elementValue = element.innerText;
-  const elementConvert = parseFloat(elementValue);
-  return elementConvert;
-}
-function setValue(thisId, variableName) {
-  const element = document.getElementById(thisId);
-  element.innerText = variableName;
-}
 
 document.getElementById("deposite-btn").addEventListener("click", function () {
   // deposite input fild ---
@@ -60,9 +43,4 @@ document.getElementById("widhrow-btn").addEventListener("click", function () {
   const mainBaleceSumUpdate = setValue("main-balance", mainBaleceSum);
 });
 
-
-let a = `
-//
-this is result 
-`
-console.log(a)
+ 

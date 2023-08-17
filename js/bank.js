@@ -8,7 +8,15 @@ document.getElementById("log-btn").addEventListener("click", function () {
   const userPassword = document.getElementById("user-password");
   const userPasswordValue = userPassword.value;
 
-  if (userNameValue === "mohibbulla" && userPasswordValue === "1010") {
+  // terms and condition --
+  const terms = document.getElementById("terms");
+   
+  console.log(terms.value);
+  if (
+    userNameValue === "mohibbulla" &&
+    userPasswordValue === "1010" &&
+    terms.checked  
+  ) {
     location.href = "user-account-page/user.html";
   } else if (userPasswordValue !== "1010" || userNameValue !== "mohibbulla") {
     // user name

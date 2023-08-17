@@ -18,10 +18,10 @@
                 }
             }
         }
-        
+
     </script>
     <style>
-        ::placeholder{
+        ::placeholder {
             color: rgb(53, 53, 53) !important;
         }
     </style>
@@ -29,7 +29,7 @@
 
 <body class="bg-zinc-800 text-yellow-50">
     <header class="px-2">
-        <h1 class="md:text-5xl text-4xl text-center capitalize mt-6"> welcom to baper <span
+        <h1 class="md:text-5xl text-4xl text-center capitalize mt-6"> welcom to my Financial<span
                 class="text-pink-600 font-medium">bank</span>
         </h1>
     </header>
@@ -37,23 +37,64 @@
         <div class="max-w-[500px] bg-slate-950 mx-auto p-5 mt-7 rounded-md">
             <div class="">
                 <h1 class="text-2xl">Pleae valid information </h1>
-                <input id="user-name" class="block w-full rounded-sm py-2 px-4 my-5 border-0 outline-0 bg-gray-400 text-black"
-                    type="text" placeholder="Your name">
+                <input id="user-name"
+                    class="block w-full rounded-sm py-2 px-4 my-5 border-0 outline-0 bg-gray-400 text-black" type="text"
+                    placeholder="Your name">
                 <div class="relative w-full p-0">
-                    <input id="user-password" class="block w-full rounded-sm py-2 px-4 my-5 border-0 outline-0 bg-gray-400 text-black"
+                    <input id="user-password"
+                        class="block w-full rounded-sm py-2 px-4 my-5 border-0 outline-0 bg-gray-400 text-black"
                         type="password" placeholder="Your password">
-                    <i id="icon-password" class="fa-regular fa-eye-slash text-black absolute right-3 cursor-pointer top-3 "></i>
+                    <i id="icon-password"
+                        class="fa-regular fa-eye-slash text-black absolute right-3 cursor-pointer top-3 "></i>
                 </div>
-
-                <button id="log-btn" class="border-0 py-2 px-8 rounded-sm uppercase  bg-green-800 hover:bg-green-500 transition-all text-yellow-100 "> 
+                <div class="mb-5">
+                    <input  id="terms" value="checked" name="terms" class="opacity-75" type="checkbox">
+                    <label class="text-gray-400" for="terms">
+                        I have read and agree to the Terms and Conditions
+                    </label>
+                </div>
+                <button id="log-btn"
+                    class="border-0 py-2 px-8 rounded-sm uppercase  bg-green-800 hover:bg-green-500 transition-all text-yellow-100 ">
                     Log in
                 </button>
             </div>
         </div>
     </main>
 
+    <!-- <div>
+        <input type="checkbox" id="myCheckbox">
+        <label for="myCheckbox">I have read and agree to the Terms and Conditions.</label>
+        <style>
+            /* Style the checkbox */
+            input[type="checkbox"] {
+                /* Hide the default checkbox */
+                display: none;
+            }
 
+            /* Style the label to act as a custom checkbox */
+            label {
+                display: inline-block;
+                padding: 8px;
+                border: 1px solid #ccc;
+                background-color: #fff;
+                /* Default background color */
+                cursor: pointer;
+            }
+
+            /* Change background color when checkbox is checked */
+            input[type="checkbox"]:checked+label {
+                background-color: #3498db;
+                /* Change to desired background color */
+                color: #fff;
+                /* Change text color for better contrast */
+            }
+        </style>
+    </div> -->
     <footer></footer>
+    <!-- <script>
+        let a= "f kdflkdjfoie "
+        let b = a.st
+    </script> -->
     <script src="js/bank.js"></script>
 </body>
 
